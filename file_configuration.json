@@ -1,0 +1,33 @@
+{
+    "folders":[
+        {
+            "folder_name":"irish_data", 
+            "files" : [
+                {
+                    "file_name": "iris.csv", 
+                    "description": "Flowers descriptions."
+                }, 
+
+                {
+                    "file_name": "mtcars.csv", 
+                    "description": "Cars types and engines descriptions"
+                }
+            ]
+        }, 
+
+        {
+            "subfolders": [
+                {
+                    "folder_name": "irish_weather",
+                    "files": [
+                        {
+                            "filename": "weather.csv", 
+                            "description": "General description of the weathers."
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

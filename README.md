@@ -4,5 +4,5 @@ This repository contains the complete Data Science pipeline for CRC development.
 
 # Functions of Different Files
 
-* `main.py` is the central file which loads the configuration file and create the necessary tables in the database based on the data types specified in the `metadata.json` file.
+* `main.py` is the central file which loads the configuration file and create the necessary tables in the database based on the data types specified in the `file_configuration.json` file.
 *
