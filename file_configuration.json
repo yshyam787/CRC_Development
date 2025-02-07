@@ -16,12 +16,13 @@
         }, 
 
         {
+            "folder_name":"irish_data",
             "subfolders": [
                 {
                     "folder_name": "irish_weather",
                     "files": [
                         {
-                            "filename": "weather.csv", 
+                            "file_name": "weather.csv", 
                             "description": "General description of the weathers."
                         }
                     ]
