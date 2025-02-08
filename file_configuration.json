@@ -4,12 +4,14 @@
             "folder_name":"irish_data", 
             "files" : [
                 {
-                    "file_name": "iris.csv", 
+                    "file_name": "iris.csv",
+                    "file_path": "/Users/shyamyadav/Shyam/Git/OtherThanUniGoet/CRC_Development/irish_data/iris.csv",
                     "description": "Flowers descriptions."
                 }, 
 
                 {
                     "file_name": "mtcars.csv", 
+                    "file_path":"/Users/shyamyadav/Shyam/Git/OtherThanUniGoet/CRC_Development/irish_data/mtcars.csv",
                     "description": "Cars types and engines descriptions"
                 }
             ]
@@ -23,6 +25,7 @@
                     "files": [
                         {
                             "file_name": "weather.csv", 
+                            "file_path": "/Users/shyamyadav/Shyam/Git/OtherThanUniGoet/CRC_Development/irish_data/irish_weather/weather.csv",
                             "description": "General description of the weathers."
                         }
                     ]
