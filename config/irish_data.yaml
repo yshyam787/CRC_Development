@@ -1,0 +1,60 @@
+datasets:
+  irish:
+    file_name: "irish.csv"
+    path: "irish_data/irish.csv"  # Relative path inside the working directory
+    file_type: "csv"
+    delimiter: ","
+    columns:
+      sepal_length: FLOAT
+      sepal_width: FLOAT
+      petal_length: FLOAT
+      petal_width: FLOAT
+      variety: VARCHAR(50)
+
+  mtcars:  # Matches with "public.mtcars" table
+    file_name: "mtcars.csv"
+    path: "irish_data/mtcars.csv"
+    file_type: "csv"
+    delimiter: ","
+    columns:
+      model: VARCHAR(50)
+      mpg: FLOAT
+      cyl: INTEGER
+      disp: FLOAT
+      hp: INTEGER
+      drat: FLOAT
+      wt: FLOAT
+      qsec: FLOAT
+      vs: INTEGER
+      am: INTEGER
+      gear: INTEGER
+      carb: INTEGER
+
+  weather:  # Matches with "irish_weather.weather" table
+    file_name: "weather.csv"
+    path: "irish_data/irish_weather/weather.csv"
+    file_type: "csv"
+    delimiter: ","
+    columns:
+      mintemp: FLOAT
+      maxtemp: FLOAT
+      rainfall: FLOAT
+      evaporation: FLOAT
+      sunshine: FLOAT
+      windgustdir: VARCHAR(50)
+      windgustspeed: INTEGER
+      winddir9am: VARCHAR(50)
+      winddir3pm: VARCHAR(50)
+      windspeed9am: INTEGER
+      windspeed3pm: INTEGER
+      humidity9am: INTEGER
+      humidity3pm: INTEGER
+      pressure9am: FLOAT
+      pressure3pm: FLOAT
+      cloud9am: INTEGER
+      cloud3pm: INTEGER
+      temp9am: FLOAT
+      temp3pm: FLOAT
+      raintoday: VARCHAR(50)
+      risk_mm: FLOAT
+      raintomorrow: VARCHAR(50)

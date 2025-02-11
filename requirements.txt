@@ -1,0 +1,4 @@
+pandas
+psycopg2 #for connecting to postgresql with through python.
+pyyaml #for handling yaml files in python
+python-dotenv #for .env file and storing sensitive information.

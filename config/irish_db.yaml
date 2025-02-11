@@ -1,0 +1,60 @@
+database:
+  host: localhost
+  port: 5444
+  dbname: irish_db
+
+  # The username and passwords are stored in the .env file.
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+tables:  # All tables under a single schema (public)
+  irish:
+    columns:
+      file_origin: VARCHAR(50) #Storing the file name in the beginning of each columns. 
+      sepal_length: FLOAT
+      sepal_width: FLOAT
+      petal_length: FLOAT
+      petal_width: FLOAT
+      variety: VARCHAR(50)  # contains about 16 characters.
+
+  mtcars:
+    columns:
+      file_origin: VARCHAR(50)
+      model: VARCHAR(50)
+      mpg: FLOAT
+      cyl: INTEGER
+      disp: FLOAT
+      hp: INTEGER
+      drat: FLOAT
+      wt: FLOAT
+      qsec: FLOAT
+      vs: INTEGER
+      am: INTEGER
+      gear: INTEGER
+      carb: INTEGER
+
+  weather:  # Weather data now inside 'public' instead of a separate schema
+    columns:
+      file_origin: VARCHAR(50)
+      mintemp: FLOAT
+      maxtemp: FLOAT
+      rainfall: FLOAT
+      evaporation: FLOAT
+      sunshine: FLOAT
+      windgustdir: VARCHAR(50)
+      windgustspeed: INTEGER
+      winddir9am: VARCHAR(50)
+      winddir3pm: VARCHAR(50)
+      windspeed9am: INTEGER
+      windspeed3pm: INTEGER
+      humidity9am: INTEGER
+      humidity3pm: INTEGER
+      pressure9am: FLOAT
+      pressure3pm: FLOAT
+      cloud9am: INTEGER
+      cloud3pm: INTEGER
+      temp9am: FLOAT
+      temp3pm: FLOAT
+      raintoday: VARCHAR(50)  # For YES or NO
+      risk_mm: FLOAT
+      raintomorrow: VARCHAR(50)
