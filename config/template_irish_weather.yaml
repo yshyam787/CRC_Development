@@ -1,0 +1,28 @@
+datasets:
+    weather:
+        file_name: weather.csv
+        path: /Users/shyamyadav/Shyam/Git/OtherThanUniGoet/CRC_Development/irish_data/irish_weather/weather.csv
+        file_type: csv
+        columns:
+            mintemp: float64
+            maxtemp: float64
+            rainfall: float64
+            evaporation: float64
+            sunshine: float64
+            windgustdir: object
+            windgustspeed: float64
+            winddir9am: object
+            winddir3pm: object
+            windspeed9am: float64
+            windspeed3pm: int64
+            humidity9am: int64
+            humidity3pm: int64
+            pressure9am: float64
+            pressure3pm: float64
+            cloud9am: int64
+            cloud3pm: int64
+            temp9am: float64
+            temp3pm: float64
+            raintoday: object
+            risk_mm: float64
+            raintomorrow: object
