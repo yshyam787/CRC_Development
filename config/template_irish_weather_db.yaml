@@ -1,0 +1,25 @@
+tables:
+    weather:
+        columns:
+            mintemp: FLOAT
+            maxtemp: FLOAT
+            rainfall: FLOAT
+            evaporation: FLOAT
+            sunshine: FLOAT
+            windgustdir: TEXT
+            windgustspeed: FLOAT
+            winddir9am: TEXT
+            winddir3pm: TEXT
+            windspeed9am: FLOAT
+            windspeed3pm: INTEGER
+            humidity9am: INTEGER
+            humidity3pm: INTEGER
+            pressure9am: FLOAT
+            pressure3pm: FLOAT
+            cloud9am: INTEGER
+            cloud3pm: INTEGER
+            temp9am: FLOAT
+            temp3pm: FLOAT
+            raintoday: TEXT
+            risk_mm: FLOAT
+            raintomorrow: TEXT
